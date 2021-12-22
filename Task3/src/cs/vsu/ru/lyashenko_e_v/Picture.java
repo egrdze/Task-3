@@ -5,7 +5,7 @@ public class Picture {
     private static final shapeCircle C1 = new shapeCircle(1, -3, 4);
     private static final shapeCircle C2 = new shapeCircle(-2, -5, 2);
 
-    public static SimpleColor getColor(double x, double y) {
+    private static SimpleColor getColor(double x, double y) {
         if (P1.isPointLeftOfParabola(x, y)) {
             if (C1.insideCoord(x, y)) {
                 if (C2.insideCoord(x, y)) {
