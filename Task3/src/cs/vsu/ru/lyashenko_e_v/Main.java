@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        if (test.testProgram()){
+        if (test.testProgram()) {
             System.out.println(("Test error"));
             System.exit(1);
         } else {
